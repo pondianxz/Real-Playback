@@ -1,0 +1,2 @@
+execute unless entity @a[nbt={Inventory:[{tag:{tag:{menu_comparator:1b}},Count:1b}]}] run item replace entity @a hotbar.4 with comparator{Enchantments:[{}],HideFlags:1,tag:{menu_comparator:1b},display:{Name:'[{"text":"Menu","color":"gray","bold":true,"italic":false}]'}}
+scoreboard players set .menu_comparator_check RTC_check 1

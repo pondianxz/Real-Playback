@@ -1,0 +1,2 @@
+execute if entity @e[type=item,nbt={Item:{tag:{tag:{menu_comparator:1b}}}},tag=!pt_sb_check] run function rtc:menu/main
+execute if entity @e[type=item,nbt={Item:{tag:{tag:{menu_comparator:1b}}}},tag=!pt_sb_check] run kill @e[type=item,nbt={Item:{tag:{tag:{menu_comparator:1b}}}}]
