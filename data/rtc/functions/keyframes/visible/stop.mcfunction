@@ -1,0 +1,1 @@
+scoreboard players set .keyframes_visible RTC_keyframes 0
