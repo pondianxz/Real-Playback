@@ -1,0 +1,1 @@
+schedule clear rtc:keyframes/path/duration/timer/main
