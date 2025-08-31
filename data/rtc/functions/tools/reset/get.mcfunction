@@ -1,0 +1,2 @@
+item replace entity @a hotbar.2 with blue_banner{display:{Name:'[{"color":"blue","text":"Reset","bold":true,"italic":false}]'},tag:{reset_banner:1b}}
+scoreboard players set .reset_banner_check RTC_check 1
