@@ -1,0 +1,2 @@
+item replace entity @a hotbar.1 with red_banner{display:{Name:'[{"text":"Start","color":"red","bold":true,"italic":false}]'},tag:{start_banner:1b}}
+scoreboard players set .start_banner_check RTC_check 1
