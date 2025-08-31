@@ -1,0 +1,2 @@
+item replace entity @a hotbar.0 with lime_banner{display:{Name:'[{"text":"Place Keyframe","color":"green","bold":true,"italic":false}]'},tag:{keyframe_banner:1b}}
+scoreboard players set .keyframe_banner_check RTC_check 1
