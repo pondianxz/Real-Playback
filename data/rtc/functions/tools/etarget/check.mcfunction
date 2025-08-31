@@ -1,0 +1,5 @@
+execute as @e[type=item,nbt={Item:{tag:{tag:{etarget_banner:1b}}}}] run data modify entity @s Owner set from entity @s Thrower
+execute as @e[type=item,nbt={Item:{tag:{tag:{etarget_banner:1b}}}}] run tp @s @p
+execute as @e[type=item,nbt={Item:{tag:{tag:{etarget_banner:1b}}}}] at @s if score .f2.f1_o1 RTC_menu matches 0 run tellraw @a [{"text": "Choose the ","color": "#CFCFCF"},{"text": "[Smooth]","color": "#59dfff"},{"text": " interpolation to create an Entity Target."}]
+execute as @e[type=item,nbt={Item:{tag:{tag:{etarget_banner:1b}}}}] at @s if score .f2.f1_o1 RTC_menu matches 1 run summon area_effect_cloud ~ ~ ~ {Tags:["rtc.etarget"],Duration:1999999980,CustomNameVisible:1b,CustomName:'{"text":"Entity Target","color":"#F594CC"}'}
+execute as @e[type=item,nbt={Item:{tag:{tag:{etarget_banner:1b}}}}] run kill @s

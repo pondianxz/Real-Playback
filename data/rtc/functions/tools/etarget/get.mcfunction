@@ -1,0 +1,2 @@
+item replace entity @a hotbar.3 with pink_banner{display:{Name:'{"text":"Create Target","color":"#F594CC","bold":true,"italic":false}'},tag:{etarget_banner:1b},Enchantments:[{}],HideFlags:1}
+scoreboard players set .etarget_banner_check RTC_check 1
