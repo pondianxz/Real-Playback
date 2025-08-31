@@ -1,0 +1,2 @@
+execute at @a run data modify entity @e[type=area_effect_cloud,sort=nearest,limit=1] Rotation[0] set from entity @e[type=marker,sort=nearest,limit=1] Rotation[0]
+execute at @a run data modify entity @e[type=area_effect_cloud,sort=nearest,limit=1] Rotation[1] set from entity @e[type=marker,sort=nearest,limit=1] Rotation[1]
