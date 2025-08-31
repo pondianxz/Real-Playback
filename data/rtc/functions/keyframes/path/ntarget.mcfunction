@@ -1,0 +1,2 @@
+tellraw @a [{"text":"No Target detected. Create one using the \"","color":"#66BDFF"},{"text":"Create Target","color":"#F594CC","bold":true},{"text":"\" tool, or choose the ","color":"#66BDFF"},{"text": "[Linear]","color": "#CFCFCF"},{"text": " interpolation.","color": "#66BDFF"}]
+function rtc:tools/start/get
