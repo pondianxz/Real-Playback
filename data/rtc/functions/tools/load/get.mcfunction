@@ -1,0 +1,2 @@
+execute unless entity @a[nbt={Inventory:[{tag:{tag:{load_banner:1b}},Count:1b}]}] run item replace entity @a hotbar.6 with yellow_banner{display:{Name:'[{"text":"Load Path","color":"yellow","bold":true,"italic":false}]'},tag:{load_banner:1b}}
+scoreboard players set .load_banner_check RTC_check 1

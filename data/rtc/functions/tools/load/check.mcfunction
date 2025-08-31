@@ -1,0 +1,2 @@
+execute if entity @e[type=item,nbt={Item:{tag:{tag:{load_banner:1b}}}},tag=!pt_lb_check] run function rtc:keyframes/path/load/tellraw
+execute if entity @e[type=item,nbt={Item:{tag:{tag:{load_banner:1b}}}},tag=!pt_lb_check] run kill @e[type=item,nbt={Item:{tag:{tag:{load_banner:1b}}}}]
