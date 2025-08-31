@@ -1,0 +1,3 @@
+scoreboard players set .f2 RTC_menu 1
+function rtc:menu/main
+playsound item.book.page_turn master @a ~ ~ ~ 100 1
