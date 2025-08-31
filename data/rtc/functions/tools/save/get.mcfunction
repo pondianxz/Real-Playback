@@ -1,0 +1,2 @@
+execute unless entity @a[nbt={Inventory:[{tag:{tag:{save_banner:1b}},Count:1b}]}] run item replace entity @a hotbar.5 with light_blue_banner{display:{Name:'[{"text":"Save Path","color":"aqua","bold":true,"italic":false}]'},tag:{save_banner:1b}}
+scoreboard players set .save_banner_check RTC_check 1

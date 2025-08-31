@@ -1,0 +1,4 @@
+execute if entity @e[type=item,nbt={Item:{tag:{tag:{save_banner:1b}}}}] unless score .all RTC_paths matches 5 unless score .every RTC_camera matches 0..1 run function rtc:keyframes/path/save/main
+execute if entity @e[type=item,nbt={Item:{tag:{tag:{save_banner:1b}}}}] if score .all RTC_paths matches 5 run tellraw @a [{"text": "\u25c6 ","color": "aqua"},{"text": "Can't create more than 5 Paths","color": "red"}]
+execute if entity @e[type=item,nbt={Item:{tag:{tag:{save_banner:1b}}}}] if score .every RTC_camera matches 0..1 run tellraw @a [{"text": "\u25c6 ","color": "aqua"},{"text": "Not enough keyframes. Min: 2","color": "red"}]
+execute if entity @e[type=item,nbt={Item:{tag:{tag:{save_banner:1b}}}}] run kill @e[type=item,nbt={Item:{tag:{tag:{save_banner:1b}}}}]
