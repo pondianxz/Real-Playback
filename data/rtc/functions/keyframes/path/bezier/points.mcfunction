@@ -1,0 +1,2 @@
+execute at @e[type=area_effect_cloud,nbt={CustomName:'{"color":"green","text":"Keyframe 1"}'}] run summon marker ^5 ^3 ^5 {Tags:["bezier.P1"]}
+execute at @e[type=area_effect_cloud,nbt={CustomName:'{"color":"green","text":"Keyframe 2"}'}] run summon marker ^-5 ^ ^-8 {Tags:["bezier.P2"]}

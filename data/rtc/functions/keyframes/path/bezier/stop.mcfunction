@@ -1,0 +1,1 @@
+schedule clear rtc:keyframes/path/bezier/tick
