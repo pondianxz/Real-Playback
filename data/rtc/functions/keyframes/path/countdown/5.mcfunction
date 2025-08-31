@@ -1,0 +1,1 @@
+title @a[tag=rtc.countdown] title {"text":"5","color":"dark_green"}
