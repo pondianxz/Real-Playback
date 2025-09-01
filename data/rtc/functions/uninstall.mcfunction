@@ -76,4 +76,4 @@ function rtc:keyframes/path/delete/4
 function rtc:keyframes/path/delete/5
 kill @e[type=area_effect_cloud,tag=keyframes]
 forceload remove 350000 350000
-tellraw @a {"text":"Real Time Camera Uninstalled","color":"red"}
+tellraw @a {"text":"Real Playback Uninstalled","color":"red"}
