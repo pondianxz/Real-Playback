@@ -1,6 +1,9 @@
-# 📷 Real Playback
-**Craft Your moment. In Real Time.** Record your experience without having to leave the world.
+<p align="center">
+  <img src="logo2.png" width="400"/>
+</p>
 
+<h2 align="center">Craft Your moment. In Real Time.</h2>
+<p align="center">Record your experience without having to leave the world.</p>
 
 Real Playback is a Minecraft Datapack for version 1.17 to 1.19, where you can record and replay your experience (kinda like ReplayMod or Flashback), except you don't have to leave the world to view your footage.
 
