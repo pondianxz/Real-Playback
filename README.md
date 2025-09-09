@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="logo2.png" width="400"/>
+  <a href="https://github.com/pondianxz/Real-Playback">
+    <img src="logo2.png" width="400"/>
+  </a>
 </p>
 
 <h2 align="center">Craft Your moment. In Real Time.</h2>
