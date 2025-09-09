@@ -18,3 +18,5 @@ It has a lot a different customizations and settings you can use, to make your f
 - _and much more..._
 
 ## ⚠ Coming soon in Portuguese (Brazil), as well as more languages
+
+<p align="center">developed by: pondianxz</p>
