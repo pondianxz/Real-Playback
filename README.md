@@ -9,7 +9,7 @@
 
 Real Playback is a Minecraft Datapack that i made back in 2023, where you can record and replay your experience (kinda like ReplayMod or Flashback), except you don't have to leave the world to view your footage.
 
-### 🛠 For versions: 1.17 to 1.19
+### ‼ For versions: 1.17 to 1.19
 
 It has a lot a different customizations and settings you can use, to make your footage **the way you want it to be.** Some of them include:
 - Change position/rotation speed
@@ -20,5 +20,3 @@ It has a lot a different customizations and settings you can use, to make your f
 - _and much more..._
 
 ## ⚠ Coming soon in Portuguese (Brazil), as well as more languages
-
-<p align="center">developed by: pondianxz</p>
